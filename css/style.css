@@ -1,0 +1,79 @@
+* {
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.brand-logo img {
+    width: 200px;
+}
+
+.logo-btn img {
+    width: 30px;
+}
+
+.main-header {
+    background-color: #FFFBF0;
+}
+
+.slide-section {
+    margin: auto;
+}
+
+.card-img {
+    border: none;
+    border-radius: 15px !important;
+}
+
+h3 {
+    color: #FA804C;
+}
+
+.bg-img {
+    background-color: #F1F1F1;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.card-item {
+    border: 0px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px rgb(236, 236, 236);
+}
+
+.submit {
+    background-color: #FA804C;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #15aad8;
+    color: white;
+
+
+}
+
+
+/* responsive */
+
+@media (max-width:767px) {
+    .headding {
+        text-align: center;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .footer-section {
+        display: block !important;
+        text-align: center;
+    }
+}
+
+@media (max-width:350px) {
+    .nav-logo {
+        width: 180px !important;
+    }
+
+}
